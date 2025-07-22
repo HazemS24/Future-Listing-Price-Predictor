@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+.venv
+venv
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Large CSV files that exceed GitHub's 100MB limit
+sales/Datasets_HOME_VALUES/Zip_zhvi_uc_sfr_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_bdrmcnt_1_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_bdrmcnt_2_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_bdrmcnt_3_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_bdrmcnt_4_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_bdrmcnt_5_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+sales/Datasets_HOME_VALUES/Zip_zhvi_uc_condo_tier_0.33_0.67_sm_sa_month.csv
